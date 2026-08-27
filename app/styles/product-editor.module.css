@@ -1,0 +1,27 @@
+.desktopTable {
+  display: block;
+}
+
+.mobileProductList {
+  display: none;
+}
+
+@media (max-width: 47.99rem) {
+  .desktopTable {
+    display: none;
+  }
+
+  .mobileProductList {
+    display: grid;
+    gap: var(--p-space-300, 0.75rem);
+    padding: var(--p-space-300, 0.75rem);
+  }
+
+  .mobileProductCard {
+    display: grid;
+    gap: var(--p-space-300, 0.75rem);
+    padding: var(--p-space-400, 1rem);
+    border: 1px solid var(--p-color-border-secondary, #e1e3e5);
+    border-radius: var(--p-border-radius-300, 0.75rem);
+  }
+}
