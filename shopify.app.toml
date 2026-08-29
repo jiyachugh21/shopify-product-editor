@@ -2,7 +2,7 @@
 
 client_id = "55c6f615908119a8634a5082b1b2a720"
 name = "product-editor"
-application_url = "https://shopify.dev/apps/default-app-home"
+application_url = "https://shopify-product-editor-u8dw.onrender.com"
 embedded = true
 
 [build]
@@ -25,4 +25,4 @@ api_version = "2026-10"
 scopes = "read_products,write_products"
 
 [auth]
-redirect_urls = [ "https://shopify.dev/apps/default-app-home/api/auth" ]
+redirect_urls = [ "https://shopify-product-editor-u8dw.onrender.com/auth/callback" ]
